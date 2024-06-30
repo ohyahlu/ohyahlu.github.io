@@ -17,11 +17,19 @@ document.addEventListener("DOMContentLoaded", function() {
         popupContainer.style.display = 'none';
     });
 
-    window.addEventListener('click', function(e) {
-        if (e.target === popupContainer) {
+    // Handle both click and touch events
+    const clickHandler = function(e) {
+        if (!popupContainer.contains(e.target)) {
             popupContainer.style.display = 'none';
+            // Remove the event listeners after hiding the popup
+            document.removeEventListener('click', clickHandler);
+            document.removeEventListener('touchstart', clickHandler);
         }
-    });
+    };
+
+    // Listen for both click and touch events on the document
+    document.addEventListener('click', clickHandler);
+    document.addEventListener('touchstart', clickHandler);
 
     function getPopupContent(type) {
         switch(type) {
@@ -38,3 +46,4 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 });
+
