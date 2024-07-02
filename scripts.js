@@ -33,13 +33,13 @@ document.addEventListener("DOMContentLoaded", function() {
     function getPopupContent(type) {
         switch(type) {
             case 'services':
-                return '<p>Live Audio Engineering (providing PA & setup/teardown) - $100/hr</p>Live Audio Engineering (BYO-PA) - $75/hr</p>Lighting & Fog + $25/hr </p>Photography & Clips + $15/hr </p>Promotional Video + $500 </P>- For custom requests please contact via phone or email - ' ;
+                return '<p><strong>Live Audio Engineering</strong> - <strong>$100/hr </strong>(Providing PA & setup/teardown)</p><strong>Live Audio Engineering</strong> - <strong>$75/hr</strong> (BYO-PA)</p><em>Add ons: </em></p><strong>Lighting & Fog + $25/hr</strong> </p><strong>Photography & Clips + $15/hr </strong></p><strong>Promotional Video + $500</strong> </P><em>- For custom requests please contact via <a href="tel:512-800-3025">phone</a> or <a href="mailto:thesoundplugz@gmail.com">email</a> -</em>';
             case 'contact':
-                return '<p>Phone: 512-800-3025 </p>Email: thesoundplugz@gmail.com</p>';
+                return '<p><strong>Phone:</strong> <a href="tel:512-800-3025">512-800-3025</a></p> </p><strong>Email:</strong> <a href="mailto:thesoundplugz@gmail.com">thesoundplugz@gmail.com</a></p>';
             case 'faq':
-                return '<p>What equipment do you use?</p> We currently use a Behringer x32 with QSC speakers. </p>Can you use my equipment? </p> Yes we can! However, we recommend letting us provide the necessary equipment to mitigate any potential issues that are out of our control. of</p>Can I chose from any of the services how I like?</p> Yup! We encourage our clients to actively tailor our skills & services to their wants & needs. </p>';
+                return '<p><strong>What equipment do you use?</strong></p> We currently use a Behringer x32 with QSC speakers. </p><strong>Can you use my equipment?</strong> </p> Yes we can! However, we recommend letting us provide the necessary equipment to mitigate any potential issues that are out of our control. of</p><strong>Can I chose from any of the services how I like?</strong></p> Yes! We encourage our clients to actively tailor our skills & services to their wants & needs. </p>';
             case 'about seedia':
-                return '<p>Seedia consists of 2 indiviudals with industry-experience & proficieny in Audio engineering & Content creation. Our mission is to uplift the Austin music scene & provide Artists with every tool necessary to shine in todays age.</p> We know the game. </p>Seedia has big plans in the future to provide Artists with a platform & resources to accomplish their goals while maintaining entire-ownership & creative control.</p>Choosing Seedia is choosing art.</p>';
+                return '<p><strong>Seedia</strong> consists of 2 indiviudals with industry-experience & proficieny in Audio engineering & Content creation. Our mission is to uplift the Austin music scene & provide Artists with every tool necessary to shine in todays age.</p><em> We know the game. </em></p><strong>Seedia</strong> has big plans in the future to provide Artists with a platform & resources to accomplish their goals while maintaining entire-ownership & creative control.</p>Choosing <strong>Seedia</strong> is choosing <em>art</em>.</p>';
             default:
                 return '';
         }
