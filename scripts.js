@@ -33,9 +33,9 @@ document.addEventListener("DOMContentLoaded", function() {
     function getPopupContent(type) {
         switch(type) {
             case 'services':
-                return '<p><strong>Live Audio Engineering</strong> - <strong>$100/hr </strong>(Providing PA & setup/teardown)</p><strong>Live Audio Engineering</strong> - <strong>$75/hr</strong> (BYO-PA)</p><em>Add ons: </em></p><strong>Lighting & Fog + $25/hr</strong> </p><strong>Photography & Clips + $15/hr </strong></p><strong>Promotional Video + $500</strong> </P><em>- For custom requests please contact via <a href="tel:512-800-3025">phone</a> or <a href="mailto:thesoundplugz@gmail.com">email</a> -</em>';
+                return '<p><strong>Live Audio Engineering</strong> - <strong>$100/hr </strong>(Providing PA & setup/teardown)</p><strong>Live Audio Engineering</strong> - <strong>$75/hr</strong> (BYO-PA)</p><em>Add ons: </em></p><strong>Lighting & Fog + $25/hr</strong> </p><strong>Photography & Clips + $15/hr </strong></p><strong>Promotional Video + $500</strong> </P><em>- For custom requests please contact via <a href="tel:512-800-3025">phone</a> or <a href="mailto:seediaproductions@gmail.com">email</a> -</em>';
             case 'contact':
-                return '<p><strong>Phone:</strong> <a href="tel:512-800-3025">512-800-3025</a></p> </p><strong>Email:</strong> <a href="mailto:thesoundplugz@gmail.com">thesoundplugz@gmail.com</a></p>';
+                return '<p><strong>Phone:</strong> <a href="tel:512-800-3025">512-800-3025</a></p> </p><strong>Email:</strong> <a href="mailto:seediaproductions@gmail.com">seediaproductions@gmail.com</a></p>';
             case 'faq':
                 return '<p><strong>What equipment do you use?</strong></p> We currently use a Behringer x32 with QSC speakers. </p><strong>Can you use my equipment?</strong> </p> Yes we can! However, we recommend letting us provide the necessary equipment to mitigate any potential issues that are out of our control. of</p><strong>Can I chose from any of the services how I like?</strong></p> Yes! We encourage our clients to actively tailor our skills & services to their wants & needs. </p>';
             case 'about seedia':
